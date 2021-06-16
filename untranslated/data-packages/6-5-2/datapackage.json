@@ -12,18 +12,6 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
-          },
-          {
-            "name": "Observation status",
-            "type": "number"
-          },
-          {
-            "name": "Unit multiplier",
-            "type": "number"
-          },
-          {
-            "name": "Unit measure",
             "type": "number"
           },
           {
