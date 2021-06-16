@@ -12,7 +12,36 @@
         "fields": [
           {
             "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Gini coefficient",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation status",
             "type": "number"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "number"
+          },
+          {
+            "name": "Retirment status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "retired",
+                "non-retired",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
