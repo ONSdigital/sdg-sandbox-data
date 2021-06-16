@@ -11,13 +11,89 @@
       "schema": {
         "fields": [
           {
+            "name": "Country",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "England",
+                "Northern Ireland",
+                "Scotland",
+                "Wales"
+              ]
+            },
+            "title": "Country"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Observation status",
+            "type": "string",
+            "title": "Observation status"
+          },
+          {
+            "name": "Organic land category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Fully Organic",
+                "In Conversion"
+              ]
+            },
+            "title": "Organic land category"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "East Midlands",
+                "Eastern",
+                "North East",
+                "North West",
+                "South East (inc. London)",
+                "South West",
+                "West Midlands",
+                "Yorkshire & Humberside"
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Unit measure",
+            "type": "string",
+            "title": "Unit measure"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string",
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Land use (000s hectares)",
+                "Proportion of UAA classified as organic"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

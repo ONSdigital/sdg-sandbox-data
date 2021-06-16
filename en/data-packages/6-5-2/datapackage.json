@@ -11,13 +11,28 @@
       "schema": {
         "fields": [
           {
+            "name": "Observation status",
+            "type": "number",
+            "title": "Observation status"
+          },
+          {
+            "name": "Unit measure",
+            "type": "number",
+            "title": "Unit measure"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "number",
+            "title": "Unit multiplier"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
           }
         ]

@@ -12,7 +12,50 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Developing country participation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Voting rights in international organisations",
+                "Membership in international organisations",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Asian Development Bank",
+                "African Development Bank",
+                "UN Economic and Social Council",
+                "Inter-American Development Bank",
+                "International Bank for Reconstruction and Development",
+                "International Finance Corporation",
+                "International Monetary Fund",
+                "UN General Assembly",
+                "UN Security Council",
+                "World Trade Organisation",
+                "Financial Stability Board",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation status",
+            "type": "string"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string"
+          },
+          {
+            "name": "Unit measure",
+            "type": "string"
           },
           {
             "name": "Value",

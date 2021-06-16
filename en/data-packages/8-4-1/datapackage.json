@@ -11,13 +11,55 @@
       "schema": {
         "fields": [
           {
+            "name": "Material category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Biomass",
+                "Fossil fuels",
+                "Metal ores excluding precious metals",
+                "Non-metallic minerals"
+              ]
+            },
+            "title": "Material category"
+          },
+          {
+            "name": "Observation status",
+            "type": "string",
+            "title": "Observation status"
+          },
+          {
+            "name": "Unit measure",
+            "type": "string",
+            "title": "Unit measure"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string",
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Material footprint (Million metric tonnes)",
+                "Material footprint per GDP (Tonnes per £m)",
+                "Material footprint per capita (Tonnes)"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

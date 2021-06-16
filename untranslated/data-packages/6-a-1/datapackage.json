@@ -12,7 +12,50 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Flow of Official Development Assistance (ODA)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bilateral",
+                "Multilateral",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Aid description (CRS code)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Basic drinking water supply (14031)",
+                "Basic drinking water supply and basic sanitation (14030)",
+                "Basic sanitation (14032)",
+                "Education and training in water supply and sanitation (14081)",
+                "River basins development (14040)",
+                "Sanitation - large systems (14022)",
+                "Waste management/disposal (14050)",
+                "Water resources policy/administrative management (14010)",
+                "Water resources protection (14015)",
+                "Water supply - large systems (14021)",
+                "Water supply & sanit. - large systems (14020)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation status",
+            "type": "string"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string"
+          },
+          {
+            "name": "Unit measure",
+            "type": "string"
           },
           {
             "name": "Value",

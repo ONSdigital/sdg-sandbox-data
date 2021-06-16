@@ -11,13 +11,50 @@
       "schema": {
         "fields": [
           {
+            "name": "Country group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Developing countries",
+                "Least developed countries",
+                "Small island developing states"
+              ]
+            },
+            "title": "Country group"
+          },
+          {
+            "name": "Observation status",
+            "type": "string",
+            "title": "Observation status"
+          },
+          {
+            "name": "Product sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "AGRI",
+                "FISH",
+                "NAMA",
+                "PAPS"
+              ]
+            },
+            "title": "Product sector"
+          },
+          {
+            "name": "Unit measure",
+            "type": "string",
+            "title": "Unit measure"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

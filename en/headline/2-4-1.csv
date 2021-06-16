@@ -1,1 +1,33 @@
-Year,Value
+Year,Value,Units,GeoCode,Observation status,Unit multiplier,Unit measure
+2000,3.0076243631242e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2001,3.94194726090556e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2002,4.18717404082385e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2003,3.93889618049076e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2004,3.83109014576426e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2005,3.51912442685919e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2006,3.46309979463651e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2007,3.84615512753032e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2008,4.1998463656959e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2009,4.26392325907806e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2010,4.16816062860963e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2011,3.82004672085523e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2012,3.52339356484998e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2013,3.33764764179443e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2014,3.1822349745881e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2015,3.04071835884955e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2016,2.92567278209438e-05,Proportion of UAA classified as organic,,Undefined,Units,Percentage (%)
+2002,741.1746498598,Land use (000s hectares),,Undefined,Thousands,Hectares
+2003,694.978822785199,Land use (000s hectares),,Undefined,Thousands,Hectares
+2004,674.506190069076,Land use (000s hectares),,Undefined,Thousands,Hectares
+2005,619.852143235613,Land use (000s hectares),,Undefined,Thousands,Hectares
+2006,619.782728068586,Land use (000s hectares),,Undefined,Thousands,Hectares
+2007,682.195996509667,Land use (000s hectares),,Undefined,Thousands,Hectares
+2008,743.515727499999,Land use (000s hectares),,Undefined,Thousands,Hectares
+2009,738.709391308199,Land use (000s hectares),,Undefined,Thousands,Hectares
+2010,718.345123749999,Land use (000s hectares),,Undefined,Thousands,Hectares
+2011,655.987238449999,Land use (000s hectares),,Undefined,Thousands,Hectares
+2012,605.65408115,Land use (000s hectares),,Undefined,Thousands,Hectares
+2013,576.047535199999,Land use (000s hectares),,Undefined,Thousands,Hectares
+2014,548.626243399999,Land use (000s hectares),,Undefined,Thousands,Hectares
+2015,521.398019099999,Land use (000s hectares),,Undefined,Thousands,Hectares
+2016,507.905107199999,Land use (000s hectares),,Undefined,Thousands,Hectares
