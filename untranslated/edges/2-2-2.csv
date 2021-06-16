@@ -1,1 +1,4 @@
 From,To
+Country,BMI
+BMI,Ethnicity
+BMI,Sex

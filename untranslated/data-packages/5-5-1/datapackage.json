@@ -12,7 +12,37 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "House of Commons",
+                "House of Lords",
+                "Welsh Assembly",
+                "Scottish Parliament",
+                "Northern Ireland Assembly",
+                "English Local Authority Councillors",
+                "Welsh Local Authority Councillors",
+                "Northern Ireland Local Authority Councils",
+                "Scottish Local Authority Councils",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit measure",
+            "type": "string"
+          },
+          {
+            "name": "Observation status",
+            "type": "string"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string"
           },
           {
             "name": "Value",

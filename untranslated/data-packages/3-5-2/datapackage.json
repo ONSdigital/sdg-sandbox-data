@@ -12,7 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Beverage",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Beer",
+                "Wine",
+                "Spirits",
+                "Other alcoholic beverages",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation status",
+            "type": "string"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string"
+          },
+          {
+            "name": "Unit measure",
+            "type": "string"
           },
           {
             "name": "Value",

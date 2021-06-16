@@ -1,1 +1,4 @@
 From,To
+Vaccine,Age
+Age,Country
+Country,Region
