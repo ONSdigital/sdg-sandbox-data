@@ -2,14 +2,18 @@
 computation_units: Percentage (%)
 copyright: ''
 data_footnote: >-
-  - As differences in the cost of living across the world evolve, the
+  <ul style="padding-left: 9rem;">
+
+  <li>As differences in the cost of living across the world evolve, the
   international poverty line has to be periodically updated using new PPP price
   data to reflect these changes. The last change was in October 2015, when the
   World Bank adopted $1.90 as the international poverty line using the 2011 PPP.
   Prior to that, the 2008 update set the international poverty line at $1.25
-  using the 2005 PPP.
+  using the 2005 PPP.</li>
 
-  - Data last updated: XX/XX/XXXX
+  <li>Data last updated: XX/XX/XXXX</li>
+
+  </ul>
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
